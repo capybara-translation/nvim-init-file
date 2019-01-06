@@ -42,3 +42,6 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set backspace=2
 
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%b]\ [HEX=\%B]\ [POS=%l,%v][%p%%]\ [LEN=%L]
+
+set ignorecase
+set smartcase
