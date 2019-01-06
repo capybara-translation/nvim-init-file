@@ -5,7 +5,6 @@ call plug#begin('~/.vim/plugged')
 
 call plug#end()
 
-
 set termguicolors
 set number
 set clipboard=unnamed
@@ -45,3 +44,7 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%b]\ [HEX=\%B]\ [
 
 set ignorecase
 set smartcase
+
+" Choose colorscheme at your pleasure
+colorscheme iceberg
+" colorscheme japanesque
