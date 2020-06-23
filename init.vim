@@ -56,3 +56,6 @@ set mouse=a
 " Choose colorscheme at your pleasure
 "colorscheme iceberg
 colorscheme japanesque
+
+" Source user-defined commands file
+source ~/.config/nvim/commands.vim
