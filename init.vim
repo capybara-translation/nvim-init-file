@@ -50,6 +50,9 @@ set synmaxcol=250
 " Enable mouse
 set mouse=a
 
+" together with 'Ambiguous characters are double-width' enabled on iterm2
+set ambiwidth=double
+
 " Displays non-ascii characters correctly
 " set ambiwidth=double
 
