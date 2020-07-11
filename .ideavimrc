@@ -1,0 +1,7 @@
+set ignorecase
+set smartcase
+set hlsearch
+nnoremap <ESC><ESC> :<C-u>set nohlsearch!<CR>
+set showmatch
+set clipboard+=unnamed
+set clipboard+=ideaput
