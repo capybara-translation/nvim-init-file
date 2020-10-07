@@ -59,8 +59,10 @@ set mouse=a
 set ambiwidth=double
 
 " Choose colorscheme at your pleasure
+syntax enable
 "colorscheme iceberg
-colorscheme japanesque
+"colorscheme japanesque
+colorscheme molokai
 
 " Source user-defined commands file
 source ~/.config/nvim/commands.vim
