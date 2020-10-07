@@ -1,8 +1,13 @@
 " Specify a directory for plugins
-" - For Neovim: ~/.local/share/nvim/plugged
+" - :echo stdpath('config')
 " - Avoid using standard Vim directory names like 'plugin'
-call plug#begin('~/.vim/plugged')
-
+call plug#begin(stdpath('config') . '/plugins')
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x' }
 call plug#end()
 
 set termguicolors
