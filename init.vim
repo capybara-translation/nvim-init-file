@@ -2,6 +2,7 @@
 " - Run :echo stdpath('config') to see the current config directory
 " - Avoid using standard Vim directory names like 'plugin'
 " - Run :PlugInstall to install plugins
+" - Run :LspInstallServer to install language servers
 call plug#begin(stdpath('config') . '/plugins')
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/asyncomplete.vim'
