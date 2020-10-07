@@ -1,6 +1,7 @@
 " Specify a directory for plugins
-" - :echo stdpath('config')
+" - Run :echo stdpath('config') to see the current config directory
 " - Avoid using standard Vim directory names like 'plugin'
+" - Run :PlugInstall to install plugins
 call plug#begin(stdpath('config') . '/plugins')
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/asyncomplete.vim'
