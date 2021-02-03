@@ -4,6 +4,7 @@
 " - Run :PlugInstall to install plugins
 " - Run :LspInstallServer to install language servers
 call plug#begin(stdpath('config') . '/plugins')
+Plug 'tpope/vim-surround'
 if !exists('g:vscode')
     Plug 'prabirshrestha/async.vim'
     Plug 'prabirshrestha/asyncomplete.vim'
@@ -11,8 +12,6 @@ if !exists('g:vscode')
     Plug 'prabirshrestha/vim-lsp'
     Plug 'mattn/vim-lsp-settings'
     Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'branch': 'release/0.x' }
-else
-    Plug 'tpope/vim-surround'
 endif
 call plug#end()
 
