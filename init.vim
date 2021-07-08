@@ -17,6 +17,8 @@ call plug#end()
 
 set clipboard=unnamed
 if !exists('g:vscode')
+    lang en_US.UTF-8
+
     set termguicolors
     set number
 
